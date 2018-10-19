@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="该网页实现是展示个人的前端技能">
+    <meta name="keywords" content="简历 个人项目 面试 响应式 POSM HTML5 CSS3 Bootstrap Javascript">
+    <meta name="author" content="https://github.com/belle6529/personal_introduction">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+    <title>柯丽萍 - 个人简介</title>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./js/action.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header col-md-4">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"> <span class="glyphicon glyphicon-hand-right"></span> 柯丽萍</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse col-md-4" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active change_active"><a href="#personal_skill">个人技能</a></li>
+                        <li class="change_active"><a href="#beautiful_picture">精美图片</a></li>
+                        <li class="change_active"><a href="#about">关于我</a></li>
+                        <li class="change_active"><a href="#contact">联系我</a></li>
+                    </ul>
+                    </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+    <section id="cover">
+        <div class="container">
+            <div class="text_content">
+                <div class="card">
+                    <span>CRE</span><br>
+                    <span>ATIV</span><br>
+                    <span>ITY</span><br>
+                    <a href="#personal_skill"><i class="fa fa-angle-down"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="personal_skill">
+        <div class="container">
+            <div class="title"> <h3>个人技能</h3><div></div></div>
+            <div class="skill_box">
+                <ul class="row">
+                    <li class="col-md-3 col-sm-6 col-xs-12 skill_content" >
+                        <div><i class="fa fa-html5"></i><h3>基础知识</h3></div> 
+                        <p>使用html+CSS（CSS3）实现页面简单布局，能操作原生JS进行页面的渲染；
+                            会使用ajax进行数据的请求，从而实现BS服务。
+                        </p>
+                    </li>
+                    <li class="col-md-3 col-sm-6 col-xs-12 skill_content d1">
+                        <div><i class="fa fa-dropbox"></i><h3>库</h3></div>   
+                        <p>能灵活运用JQuery对页面进行操作，同时也会移动端的Zepto库；会能使用Bootstrap来开发响应式页面。</p>
+                    </li>
+                    <li class="col-md-3 col-sm-6 col-xs-12 skill_content d2">
+                        <div><i class="fa fa-codepen"></i> <h3>框架</h3></div> 
+                        <p>掌握前端两大框架Vue.js,React.js的基础知识，能灵活的根据公司要求，快速上手相应的框架，同时能使用webpack进行模块化的开发。</p>
+                    </li>
+                    <li class="col-md-3 col-sm-6 col-xs-12 skill_content d3">
+                        <div><i class="fa fa-github-alt"></i> <h3>工具</h3></div> 
+                        <p>了解Git分布式版本控制系统工具，能使用VSCode、webstorm等工具进行项目开发。</p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+    <section id="beautiful_picture">
+        <div class="container">
+            <ul class="row">
+                <li class="col-md-4 col-sm-6 col-xs-12">
+                    <a href=""><img src="http://www.meweidea.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBJUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f388959c0ec7c5ccd3d2a47d49c388035065ff31/10.jpg" alt="">
+                    <div class="big_box"> <div class="small_box"><p>精美图片</p></div> </div></a></li>
+                <li class="col-md-4 col-sm-6 col-xs-12">
+                    <a href=""><img src="http://www.meweidea.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBKQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0a8f67ab4c71789f727798eec8df862dbd1613f6/9-5.jpg" alt="">
+                    <div class="big_box"> <div class="small_box"><p>精美图片</p></div> </div></a></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><a href=""><img src="http://www.meweidea.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBKdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ebfb9390665fa401ec3be7c6629caacd89c24436/8_.jpg" alt="">
+                    <div class="big_box"> <div class="small_box"><p>精美图片</p></div> </div></a></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><a href=""><img src="http://www.meweidea.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBMQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9917400c9c9e83154e4b849324d1565d47e7745b/11.jpg" alt="">
+                    <div class="big_box"> <div class="small_box"><p>精美图片</p></div> </div></a></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><a href=""><img src="http://www.meweidea.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBNQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ba922286fac4bf7a5cd3ee9c20ad94d6054d2afe/5-2.jpg" alt="">
+                    <div class="big_box"> <div class="small_box"><p>精美图片</p></div> </div></a></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><a href=""><img src="http://www.meweidea.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBNZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--931cb163938a82abd8ffc1032d6f0f757f6c1d80/13.jpg" alt="">
+                    <div class="big_box"> <div class="small_box"><p>精美图片</p></div> </div></a></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><a href=""><img src="http://www.meweidea.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBOQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c2e3f7b6346bde464f4b2b1799f0c705ec6f221f/4.jpg" alt="">
+                    <div class="big_box"> <div class="small_box"><p>精美图片</p></div> </div></a></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><a href=""><img src="http://www.meweidea.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBZUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--49334eb997cbf4da92134ac5647627718198e6ad/15-2.jpg" alt="">
+                    <div class="big_box"> <div class="small_box"><p>精美图片</p></div> </div></a></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><a href=""><img src="http://www.meweidea.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBadz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--03d12a199cf481ad663a22fbd4c42b78b08e9053/14-1.jpg" alt="">
+                    <div class="big_box"> <div class="small_box"><p>精美图片</p></div> </div></a></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><a href=""><img src="http://www.meweidea.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBSZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--006ff5a6aeb50056673b566a42b3830c5917ddfd/16.jpg" alt="">
+                    <div class="big_box"> <div class="small_box"><p>精美图片</p></div> </div></a></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><a href=""><img src="http://www.meweidea.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBTQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--578c87906910074f91563fb17db931d32ca27a9a/3.jpg" alt="">
+                    <div class="big_box"> <div class="small_box"><p>精美图片</p></div> </div></a></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><a href=""><img src="http://www.meweidea.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBTdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7f057dc77a679289afae08f3e46e4d879ea4b216/7.jpg" alt="">
+                    <div class="big_box"> <div class="small_box"><p>精美图片</p></div> </div></a></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><a href=""><img src="http://www.meweidea.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBVQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8f2001207b454644ea004f96adf1ce480f50b1a4/6.jpg" alt="">
+                    <div class="big_box"> <div class="small_box"><p>精美图片</p></div> </div></a></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><a href=""><img src="http://www.meweidea.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBZZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b9932c1def104625bdd56875fae680a0d37c45cf/1.jpg" alt="">
+                    <div class="big_box"> <div class="small_box"><p>精美图片</p></div> </div></a></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><a href=""><img src="http://www.meweidea.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBXQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c4126a32bf4170938d73705ab9a31b3e5f0a2e9a/2.jpg" alt="">
+                    <div class="big_box"> <div class="small_box"><p>精美图片</p></div> </div></a></li>
+            </ul>
+        </div>
+
+    </section>
+    <section id="about">
+        <div class="container">
+            <div class="title">
+                <p>关于我</p>
+                <div></div>
+            </div>
+            <div class="about_content row">
+                <div class="content_left col-sm-6 col-xs-12">
+                    <p>为人稳重、大方，认真对待工作，开朗自信，待人真诚，有优良的团队精神，强烈的责任心，良好的沟通协调能力。在责任心、事业心、亲和力、决策能力、计划能力、谈判能力强，具备良好的敬业精神和职业道德操守，有很强的感召力和凝聚力。</p>
+                </div>
+                <div class="content_right col-sm-6 col-xs-12 d1">
+                    <p>我是一个积极、乐观，务实，不断学习，奋力进取的人。不想落后，也不愿落后;落后，失去成功的一切机会。学习也是必不可少的，没有知识是很难成功的;同时，为自己争取更多的机会的实践、去成功!</p>
+                </div>
+                <div class="picture_left col-sm-6 col-xs-12 d2 ">
+                    <img src="http://img4q.duitang.com/uploads/item/201305/09/20130509142028_dQ3xV.thumb.700_0.jpeg" alt=""></div>
+                <div class="picture_right col-sm-6 col-xs-12 d3">
+                    <img src="http://bpic.588ku.com/back_pic/03/72/25/0757b92207b7bcc.jpg" alt=""></div></div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container-fluid bg">
+            <div class="container">
+                <p class="chance">对我个人小项目满意的话，请给我一次进贵公司的机会，谢谢</p>
+                <p>个人联系方式：</p>
+                <p class="tel">电话：15623212125</p>
+                <p class="email">邮箱: 2583262166@qq.com</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="box">&copy;xxxxxxxxxxxxxxxxx</p>
+    </footer>
+</body>
+</html>
